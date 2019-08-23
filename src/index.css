@@ -1,12 +1,117 @@
 * {
   box-sizing: border-box;
-  color: blue;
+  font-family: "Times New Roman", Times, serif;
 }
 
 *::before {
   box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 }
 
 *::after {
   box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+nav {
+  margin: 0;
+  padding: 0;
+}
+nav > a {
+  position: absolute;
+  padding: 5px;
+  font-size: 4ex;
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(85, 233, 183);
+  border: 1px solid #e7e7e7;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  background-color: #ddd;
+}
+
+.container {
+  margin: 10px;
+}
+/* .clsbutton {
+  margin-left: 130px;
+  padding: 10px;
+  font-size: 1em;
+  background-color: rgb(104, 211, 104);
+  border-radius: 5px;
+  color: white;
+  width: 150px;
+  border: 1px solid white;
+}
+.clsbutton:hover {
+  background-color: rgb(83, 148, 83);
+  cursor: pointer;
+  color: white;
+}
+
+.container {
+  margin-top: 40px;
+  position: relative;
+}
+
+.container div {
+  display: inline;
+}
+
+.boxred {
+  padding: 20px;
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+  background-color: red;
+}
+.boxblue {
+  padding: 20px;
+  margin: 30px;
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+}
+.boxyellow {
+  padding: 20px;
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+  background-color: yellow;
+} */
+
+@media screen and (max-width: 600px) {
+  nav > a {
+    display: none;
+  }
+  li {
+    float: left;
+    width: 100%;
+  }
+  li a {
+    text-align: left;
+  }
 }
